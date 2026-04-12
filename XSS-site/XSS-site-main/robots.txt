@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /html/admin
+
+User-agent: User
+Disallow: Well done for finding me - have a gold star FLAG{GOLDSTAR}

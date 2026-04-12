@@ -1,0 +1,10 @@
+FLAG{BRONZESTAR} - never on the website at all - you have to have found both gold and silver stars and infer that bronze exists  
+FLAG{SILVERSTAR} - in the /admin page  
+FLAG{GOLDSTAR} - in the robots.txt page  
+FLAG{HSIRMDBSJE} - go to a 404 page  
+FLAG{FKSJRBGFHSJS} - put script in add comments - reflected  
+FLAG{KDSEBFJIGHREER} - URL Manipulation to see /page0  
+FLAG{ORUURNDNSJEJR} - visit see-comments page to view stored xss  
+FLAG{QIWIEJDNBFHI} - visit page 7  
+FLAG{UEOWMSNFHEKW} - dom based attack on the language parameter on the home page  
+FLAG{BVJDSKOWORNF} - feedback form - add a script tag - blind xss  

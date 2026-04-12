@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <p id="lang"></p>
+        <img src="/image.png" width="200" height="200" alt="Shofosh">
+        <p>Welcome to Shofosh! Happy Hocking</p>
+
+        <a href="/add-comment">Add Comment</a>
+        <a href="/see-comments">See Comments</a>
+
+        <br><br><strong>Index</strong><br>
+        <a href="page1">Page 1</a><br>
+        <a href="page2">Page 2</a><br>
+        <a href="page3">Page 3</a><br>
+        <a href="page4">Page 4</a><br>
+        <a href="page5">Page 5</a><br>
+        <a href="page6">Page 6</a><br>
+        <a href="page7">Page 7</a><br>
+        <a href="page8">Page 8</a><br>
+        <a href="page9">Page 9</a><br>
+        <a href="page10">Page 10</a><br>
+        <a href="page11">Page 11</a><br>
+        <a href="page12">Page 12</a><br>
+
+        <script>
+            // Get the value of the 'language' parameter from the URL
+            const urlParams = new URLSearchParams(window.location.search);
+            let language = urlParams.get('language');
+
+            if (!language) {
+                language = 'English';  // Default language
+            }
+            // If the language parameter exists, update the paragraph tag with id 'lang'
+            if (language) {
+                const langParagraph = document.getElementById('lang');
+                if (langParagraph) {
+                    if (language.includes("<script>")){
+                        langParagraph.textContent = "Well done for the dom based :) FLAG{UEOWMSNFHEKW}"
+                    } else {
+                        langParagraph.textContent = "The language is " + language;
+                    }
+                    
+                }
+            }
+            
+        </script>
+    </body>
+    <footer>
+        <a href="/feedback.html">Feedback</a>
+    </footer>
+</html>

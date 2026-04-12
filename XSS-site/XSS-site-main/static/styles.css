@@ -1,0 +1,61 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Clean, sans-serif font */
+    line-height: 1.6; /* Better line spacing */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Light gray background */
+    color: #333; /* Dark gray text for readability */
+    text-align: center; /* Center all text inside body */
+}
+
+/* Main container for the content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px; /* Standard readable font size */
+    margin-bottom: 1.5em; /* Space between paragraphs */
+    text-align: center; /* Center text within paragraphs */
+}
+
+/* Hyperlink styles */
+a {
+    color: #1a73e8; /* Soft blue for links */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make links stand out */
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for links */
+a:hover {
+    color: #d32f2f; /* Red color on hover */
+    border-bottom: 2px solid #d32f2f; /* Add underline effect */
+}
+
+/* Styling for visited links */
+a:visited {
+    color: #6a1b9a; /* Purple for visited links */
+}
+
+/* Styling for active links */
+a:active {
+    color: #c2185b; /* Darker pink when clicked */
+}
+
+/* Make links accessible with focus styles */
+a:focus {
+    outline: 2px solid #ffeb3b; /* Yellow focus outline */
+}
+
+/* Optional: Add some padding around the body content for spacing */
+.content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
