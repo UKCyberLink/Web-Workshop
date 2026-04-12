@@ -115,7 +115,7 @@ def make_html_routes(filename):
     elif (filename + ".html") in app.config["HTML_FILES"]:
         return send_from_directory(html_path, filename + ".html")
     else:
-        return "HTML file not found", 404
+        return send_from_directory("raw-files", "404-error.html"), 404
                 
 def check_if_in_directories(all_files_directories, path):
     for itm in all_files_directories:
