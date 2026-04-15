@@ -1,0 +1,7 @@
+{
+    "require": {
+        "monolog/monolog": "2.1.*",
+        "consoletvs/profanity": "^3.5",
+        "snipe/banbuilder": "^2.3"
+    }
+}
